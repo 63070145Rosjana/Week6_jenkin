@@ -35,5 +35,12 @@ pipeline {
                 
             }
         }
+        stage('five-build') {
+            steps {
+                
+                echo 'build in progress 5'
+                
+            }
+        }
     }
 }
