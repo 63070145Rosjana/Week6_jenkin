@@ -54,5 +54,11 @@ pipeline {
         always {
             echo 'Cleanup after everything!'
         }
+        success {
+            echo 'Only on SUCCESS'
+        }
+        failure {
+            echo 'Only on Failure'
+        }
     }
 }
