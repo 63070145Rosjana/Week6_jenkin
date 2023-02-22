@@ -42,5 +42,12 @@ pipeline {
                 
             }
         }
+        stage('six-build') {
+            steps {
+                
+                echo 'build in progress 6'
+                
+            }
+        }
     }
 }
