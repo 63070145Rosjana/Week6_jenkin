@@ -21,5 +21,19 @@ pipeline {
                 
             }
         }
+        stage('three-build') {
+            steps {
+                
+                echo 'build in progress 3'
+                
+            }
+        }
+         stage('four-build') {
+            steps {
+                
+                echo 'build in progress 4'
+                
+            }
+        }
     }
 }
